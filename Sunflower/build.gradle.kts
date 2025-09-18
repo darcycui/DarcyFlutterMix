@@ -1,0 +1,43 @@
+buildscript {
+    repositories {
+        maven ("https://maven.aliyun.com/repository/public")
+        maven("https://maven.aliyun.com/repository/google")
+        maven("https://maven.aliyun.com/repository/jcenter")
+        maven("https://maven.aliyun.com/repository/gradle-plugin")
+        maven("https://jitpack.io")
+        mavenCentral()
+        gradlePluginPortal()
+        // umeng
+//        maven ("https://repo1.maven.org/maven2/")
+    }
+
+    // 添加gradle插件
+    dependencies {
+        // navigation
+        classpath (libs.navigation.safe.args.gradle.plugin)
+        // hilt
+        classpath (libs.dagger.hilt.android.gradle.plugin)
+        // StringFog
+        classpath (libs.stringfog.gradle.plugin)
+        // 选用加解密算法库，默认实现了xor算法，也可以使用自己的加解密库。
+        classpath (libs.stringfog.xor)
+
+    }
+}
+plugins {
+    alias(libs.plugins.androidApplication) apply false
+    alias(libs.plugins.jetbrainsKotlinAndroid) apply false
+    alias(libs.plugins.androidLibrary) apply false
+    id("com.google.devtools.ksp") version "2.1.0-1.0.29" apply false
+}
+
+// build.gradle.kts
+// 根 build.gradle.kts
+subprojects {
+    // 在 subprojects 闭包内配置
+    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+        compilerOptions.freeCompilerArgs.addAll(
+            listOf("-opt-in=kotlinx.serialization.InternalSerializationApi")
+        )
+    }
+}

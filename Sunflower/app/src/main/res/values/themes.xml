@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="app_Base.Theme.Sunflower" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="app_Theme.Sunflower" parent="lib_theme_MaterialTheme" />
+
+    <style name="app_TransparentTheme" parent="app_Theme.Sunflower">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

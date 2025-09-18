@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/app_text_color"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/call_flutter_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拉起 另一个Flutter App"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/inner_flutter_page_no_cache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="内置Flutter页面(不使用缓存)"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/innerFlutterPageCached"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="内置Flutter页面(使用缓存)"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/innerFlutterCacheCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="检查缓存 Flutter Engine"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/innerFlutterCacheDestroy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="销毁缓存 Flutter Engine"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/stickyLiveData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sticky LiveData"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="room database"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRoomFlow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="room+flow"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnPaging"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="paging"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRoomPaging"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="room+paging"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/btnMVI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MVI"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/btnDataStore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DataStore"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/btnFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FragmentActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnHttp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HttpActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnWebSocket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WebSocketActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnMvp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MVPActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SettingsActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSparseArray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SparseArray Test"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification Test"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnJni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JNI Test"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSecurity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Security Test"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnAppStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test App Status"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/app_font_family"
+            android:text="Test Custom Camera"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnCameraBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Custom Camera Background"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnCameraReceiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Camera Receiver"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSignature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="get apk signature"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSignatureHook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signature Hook"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnInstrumentationHook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instrumentation Hook"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnInstrumentationHookReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instrumentation Hook Reset"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</ScrollView>

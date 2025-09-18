@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/app_text_color"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnForegroundServiceStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="foreground service start"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnForegroundServiceCallIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="foreground service call in"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnForegroundServiceCallOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="foreground service call out"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnForegroundServiceStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="foreground service stop"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="show notification"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnHide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hide notification"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnShowFullScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="show full screen notification"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnHideFullScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hide full screen notification"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Home Page"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestUmengActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/lib_umeng_test_umeng"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnClickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ClickButton"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnHide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hide"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnCrash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crash"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Home Page"
+        android:background="@android:color/holo_purple"
+        android:textAllCaps="false" />
+
+</LinearLayout>

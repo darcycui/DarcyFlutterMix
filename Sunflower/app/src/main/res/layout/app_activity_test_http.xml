@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".test.TestHttpActivity">
+
+    <Button
+        android:id="@+id/btnCheckHttpProxy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckHttpProxy" />
+
+    <Button
+        android:id="@+id/btnHttpJuhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TestHttpJeHe" />
+
+    <Button
+        android:id="@+id/btnHttpDarcyIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TestHttpDarcy-IP" />
+
+    <Button
+        android:id="@+id/btnHttpDarcyServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TestHttpDarcy-Server" />
+
+    <Button
+        android:id="@+id/btnTestHttpEBPF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="eBPF抓包测试" />
+
+    <Button
+        android:id="@+id/btnTestLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Login_10" />
+
+    <Button
+        android:id="@+id/btnDNS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="DNS" />
+
+    <Button
+        android:id="@+id/btnNetworkType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="NetworkType" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+
+</LinearLayout>

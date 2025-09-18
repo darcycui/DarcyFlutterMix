@@ -1,0 +1,23 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.idea/
+#自Kotlin 2.0.0以来，名为“.kotlin”的文件夹是在编译时创建的
+.kotlin
+
+/JustForCodeIndexModuleDebug
+/JustForCodeIndexModuleRelease
+codeLocator.gradle
+*.apk
